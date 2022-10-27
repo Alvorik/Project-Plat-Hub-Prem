@@ -1,9 +1,9 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("PROJECT PLAT | PREMIUM ", "Synapse")
+local Window = Library.CreateLib("Project Plat | PREMIUM ", "Synapse")
 
 -- MAIN
 local Main = Window:NewTab("Main")
-local MainSection = Main:NewSection("Main Section | PREMIUM")
+local MainSection = Main:NewSection("Main | PREMIUM")
 
 MainSection:NewButton("Inf Yield", "Admin Commands script", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
@@ -157,5 +157,7 @@ end)
 ShindoSection:NewButton("Lazium Hub", "they dont care if u get banned!", function()
     loadstring(game:HttpGet"https://raw.githubusercontent.com/CheapeeWastaken/Lazium/main/TheMain")()
 end)
+
+    
 
 
